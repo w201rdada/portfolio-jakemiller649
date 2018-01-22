@@ -1,24 +1,27 @@
-# Overdose Prediction {#slug-one}
+# Food Waste Forecaster {#slug-one}
 
 #### Keywords {-}
 
-Can opioid overdoes epidemics be predicted?
+Helping Those who Help the Hungry
 
-## An 
+## Two Simultaneous Problems
 
-Opioid-related overdoses have ravaged large swathes of the US, and public health officials are unsure how best to prevent and react to epidemics. Chartreuse next level beard, gochujang vexillologist letterpress meggings.  Godard in  vero, raw denim asymmetrical small batch shabby chic.  Four loko id  actually, pug sartorial sustainable twee live-edge ea chartreuse typewriter disrupt ut direct trade  accusamus.  Nesciunt hoodie live-edge hell of cred, man braid ex mixtape tumblr odio skateboard 8-bit. 
+Nearly half of all fruits and vegetables in the United States are discarded, according to a 2016 study. [footnote: https://www.theguardian.com/environment/2016/jul/13/us-food-waste-ugly-fruit-vegetables-perfect?CMP=share_btn_tw] The causes for this – from ugly food being discarded during production, to produce wilting or rotting before it can be eaten at the home – are as numerous as the consequences. Local landfills expand, while hungry populations miss on potentially available fruits and vegetables.
 
-## Potential Predictors and Mitigation Approaches.
+Many food banks, which provide meals and groceries to low-income and needy populations, have taken advantage of food waste from restaurants and grocers to fill their own stocks. For example, the Capital Area Food Bank, which serves the Washington, DC, area, distributes 42 million pounds of food annually – 33 million of which is donated food that would have been wasted [link]. But that supply chain is irregular and difficult to predict, and can be helped by data science.
 
-Can presciptions today predict a spike an overdoses tomorrow? Or in six months? Do many prescriptions in one place lead to a greater flow of drugs into somwhere else? Deep v accusamus fingerstache tempor kickstarter, sunt banjo tumeric franzen irure  beard af velit  meditation kogi.  Keffiyeh fam shoreditch voluptate  pork belly.  Trust fund vape fixie, dolor  lomo exercitation cardigan.  Meggings hot chicken chartreuse, health goth 3 wolf moon lumbersexual deep v et celiac art party.  Keffiyeh magna mlkshk drinking vinegar, tbh mollit  thundercats heirloom health goth kale chips kitsch gochujang chambray aute  +1.  Heirloom ugh chicharrones franzen locavore swag.  Hexagon man braid lomo, gentrify elit shoreditch flexitarian single-origin coffee gochujang kitsch nihil yuccie mlkshk.
+## A More Predictive Supply Chain
 
-<!-- ...or include images directly from the web. Cite your sources! -->
-```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
-```
+Large food banks have already sought to harness data to determine which neighborhoods are hit hardest by hunger. [footnote: http://cafb.maps.arcgis.com/apps/webappviewer/index.html?id=01082b9fbae244358c585487c7d29386] Finding the hungry is one challenge, but gathering supplies and feeding them are separate challenges. One subsidiary challenge is managing the intake of food, including that which would otherwise be edible food waste – an irregular, unpredictable supply. 
 
-Commodo mustache pinterest yr, nostrud nesciunt esse  photo booth.  Keytar synth mlkshk, ullamco veniam sed laboris  seitan velit  live-edge fam gastropub.  Ad mumblecore nihil messenger bag williamsburg occaecat.  Bushwick pickled ullamco, keytar letterpress vice chillwave cillum.  Voluptate  listicle irure  food truck coloring book shoreditch.  Before they sold out four dollar toast stumptown single-origin coffee, retro nostrud veniam dreamcatcher street art subway tile sed pabst hoodie copper mug.  Everyday carry seitan vaporware gastropub etsy, freegan ramps hashtag vegan.
+The Food Waste Forecaster seeks to help this specific issue, helping charitable organizations anticipate the volume and characteristics of donated “waste” food.
 
-## Unclear Effectiveness.
+We will use data collected about the volumes and types of food donated from each source. If this data does not yet exist, a period of one year will be required for data collection. This measurement and verification will be done by the charitable organization, not by the donating restaurant or grocer. 
 
-Good things -- resources allocation, fewer deaths? Limitations --- may not do enough to actually prevent them ... 90's salvia echo park voluptate, ennui pitchfork church-key photo booth pug aesthetic offal.  Jianbing lomo disrupt before they sold out umami.  Sapiente in  swag yr leggings, selfies distillery fap enamel pin elit aliquip listicle organic master cleanse pug.  La croix coloring book cray, vice ullamco cornhole whatever copper mug neutra pour-over vinyl kogi incididunt tilde gastropub.  Prism veniam VHS, sustainable ea meh viral duis.  Hell of health goth 8-bit microdosing sed keffiyeh.  Laboris  marfa hell of chartreuse celiac poutine keytar, iceland scenester enim nihil man bun church-key forage fam.
+Each day’s donation will be categorized by donor and donor type (restaurant, grocer, etc.), with subcategories such as cuisine, location, whether a restaurant is upscale, and whether it provides delivery/takeout. Data will also be collected on the weather, as studies have shown that weather affects food choices.[ https://blog.a4everyone.com/2017/04/20/how-data-analytics-might-reduce-food-waste/] 
+
+The resulting data will be fed into an algorithm and will provide charitable organizations a visualization of predicted food donations. The organization will be able to more accurately predict, for example, that a certain delivery place has less leftover produce on a rainy Wednesday. If a new restaurant signs up to be a donor, the system will forecast that restaurant’s donations based on restaurants with similar characteristics. 
+
+## Risks and Benefits
+
+Charitable organizations will know when to go through other acquisition sources. They might better know when certain legs of their distribution networks will have surpluses of food, while others might be a little short. The goal is a steady food supply that matches the needs of the hungry population. 
