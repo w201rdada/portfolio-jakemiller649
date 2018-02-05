@@ -1,4 +1,4 @@
-# Food Forecaster {#Helping food banks forecast intake}
+# Food Forecaster {#helping-food-banks-forecast-intake}
 
 #### Keywords {-}
 
