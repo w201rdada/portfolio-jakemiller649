@@ -1,14 +1,14 @@
-# Food Forecaster {#slug-one}
+# Food Forecaster {#Helping food banks forecast intake}
 
 #### Keywords {-}
 
-Slug: Helping Those who Help the Hungry
+food, food bank, food waste
 
 ## Two Simultaneous Problems
 
-Nearly half of all fruits and vegetables in the United States are discarded, according to a 2016 study [Goldenberg 2016]. The causes for this – from food that is considered ugly during production, to produce wilting or rotting before it can be eaten at home – are as numerous as the consequences. Local landfills expand, while hungry populations miss on potentially available fruits and vegetables.
+Nearly half of all fruits and vegetables in the United States are discarded, according to a 2016 study [@goldenberg_half_2016]. The causes for this – from food that is considered ugly during production, to produce wilting or rotting before it can be eaten at home – are as numerous as the consequences. Local landfills expand, while hungry populations miss on potentially available fruits and vegetables.
 
-Many food banks, which provide meals and groceries to low-income and needy populations, have taken advantage of food waste from local farms, grocers, and restaurants to fill their stocks. For example, the Capital Area Food Bank, which serves the Washington, DC, area, distributes 42 million pounds of food annually – 33 million of which is donated food that would have been wasted. [https://www.capitalareafoodbank.org/programs/food-waste/] But that supply chain is irregular and difficult to predict, and can be helped by data science.
+Many food banks, which provide meals and groceries to low-income and needy populations, have taken advantage of food waste from local farms, grocers, and restaurants to fill their stocks. For example, the Capital Area Food Bank, which serves the Washington, DC, area, distributes 42 million pounds of food annually – 33 million of which is donated food that would have been wasted. [@noauthor_food_nodate] But that supply chain is irregular and difficult to predict, and can be helped by data science.
 
 ## A More Predictive Supply Chain
 
@@ -26,7 +26,7 @@ The organization will be able to more accurately predict, for example, that a ce
 
 ## Building a holistic view of the food supply
 
-Some food banks have strong relationships with local donors, while others are more reliant on national services such as Feeding America (Prendergast 2016). With this tool, those who rely more heavily on local donations will be better able to predict when to bolster their stocks through secondary acquisition sources, such as Feeding America, in which food banks bid against each other (using fake money) for most prized donations (Prendergast 2016).
+Some food banks have strong relationships with local donors, while others are more reliant on national services such as Feeding America [@prendergast_how_2017]. With this tool, those who rely more heavily on local donations will be better able to predict when to bolster their stocks through secondary acquisition sources, such as Feeding America, in which food banks bid against each other (using fake money) for most prized donations [@prendergast_how_2017].
 
 Furthermore, forecasting food waste intake could be the first step in a larger effort to predict both supply and demand, enabling a food bank or network of food banks to provide steady service while still being able to react to market shocks.
 
