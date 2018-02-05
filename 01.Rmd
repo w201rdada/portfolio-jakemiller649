@@ -1,4 +1,4 @@
-# Food Waste Forecaster {#slug-one}
+# Food Forecaster {#slug-one}
 
 #### Keywords {-}
 
@@ -6,9 +6,9 @@ Slug: Helping Those who Help the Hungry
 
 ## Two Simultaneous Problems
 
-Nearly half of all fruits and vegetables in the United States are discarded, according to a 2016 study [Goldenberg 2016]. The causes for this – from food that is considered ugly during production, to produce wilting or rotting before it can be eaten at the home – are as numerous as the consequences. Local landfills expand, while hungry populations miss on potentially available fruits and vegetables.
+Nearly half of all fruits and vegetables in the United States are discarded, according to a 2016 study [Goldenberg 2016]. The causes for this – from food that is considered ugly during production, to produce wilting or rotting before it can be eaten at home – are as numerous as the consequences. Local landfills expand, while hungry populations miss on potentially available fruits and vegetables.
 
-Many food banks, which provide meals and groceries to low-income and needy populations, have taken advantage of food waste from local farms, grocers, and restaurants to fill their own stocks. For example, the Capital Area Food Bank, which serves the Washington, DC, area, distributes 42 million pounds of food annually – 33 million of which is donated food that would have been wasted. [https://www.capitalareafoodbank.org/programs/food-waste/] But that supply chain is irregular and difficult to predict, and can be helped by data science.
+Many food banks, which provide meals and groceries to low-income and needy populations, have taken advantage of food waste from local farms, grocers, and restaurants to fill their stocks. For example, the Capital Area Food Bank, which serves the Washington, DC, area, distributes 42 million pounds of food annually – 33 million of which is donated food that would have been wasted. [https://www.capitalareafoodbank.org/programs/food-waste/] But that supply chain is irregular and difficult to predict, and can be helped by data science.
 
 ## A More Predictive Supply Chain
 
@@ -16,16 +16,18 @@ Large food banks have already sought to harness data to determine which neighbor
 
 The Food Forecaster seeks to help this specific issue, enabling charitable organizations to anticipate the volume and characteristics of donated “waste” food.
 
-We will use data collected about the volumes and types of food donated from each source. If this data does not yet exist, a period of one year will be required for data collection before predictions can be used. This collection will be done by the charitable organization, not by the donating restaurant or grocer, and must be accomplished without significant extra effort. One possible solution is a smartphone app in which a worker selects food and donor, then enters the weight. Within the system, donors will have characteristics such as location, specific lines of business, and size of business,
+We will use data about the volumes and types of food donated from each source. (If this data does not yet exist, a period of one year will be required for data collection before attempting predictions.) The food bank, not the donor, will gather this data, and the gathering process must not require significant extra effort. One possible solution is a smartphone app in which a worker selects food and donor, then enters the weight. Within the system, donors will have characteristics such as location, specific lines of business, and size,
 
 Separately, data will also be collected on date and season, as well as specific weather conditions, which affect both business consumer patterns as well as farm production. 
 
-The resulting data will be fed into an algorithm and will provide charitable organizations a visualization of predicted food donations. The output will be a dashboard that shows a 14-day forecast for incoming donations, with simple designations of below average, about average, or above average expectations (e.g., “You are expected to receive less than the usual tomatoes over the next week.”) The main dashboard will display primary food groups, but the user will be able to choose specific foods. Simplicity and ease of use will guide the visualizations. 
+The resulting data will be fed into an algorithm and will provide charitable organizations a visualization of predicted food donations. The output will be a dashboard that shows a 14-day forecast for incoming donations, with simple designations of below average, about average, or above average expectations (e.g., “You are expected to receive less than the usual tomatoes over the next week.”). The main dashboard will display primary food groups, but the user will be able to choose specific foods to see more detailed predictions. Simplicity and ease of use will guide the visualizations. 
 
-The organization will be able to more accurately predict, for example, that a certain store has less leftover produce on a rainy Wednesday. Or if a dry May means fewer tomatoes from the local farm in June. If a new donor is enlisted, the system will forecast that grocer’s donations based on grocers with similar characteristics. 
+The organization will be able to more accurately predict, for example, that a certain store has less leftover produce on a rainy Wednesday; or, if a dry May means fewer tomatoes from the local farm in June. If a new donor is enlisted, the system will forecast that grocer’s donations based on grocers with similar characteristics. 
 
 ## Building a holistic view of the food supply
 
 Some food banks have strong relationships with local donors, while others are more reliant on national services such as Feeding America (Prendergast 2016). With this tool, those who rely more heavily on local donations will be better able to predict when to bolster their stocks through secondary acquisition sources, such as Feeding America, in which food banks bid against each other (using fake money) for most prized donations (Prendergast 2016).
 
-There are risks: if people rely on the algorithm too much, if the algorithm is wrong, or there are black swan events that affect the supply of food, there might severe disruption to service. To mitigate the first two risks, we will conduct a period measurement and testing, as well as continuous checking during its operational phase. For the third, we will be transparent in our assumptions to the user so that they are aware of what risks they must also consider in short- and long-term planning. This tool will not be the sole decision-maker for the organization on how it acquires food, but it can help aid in those decisions.
+Furthermore, forecasting food waste intake could be the first step in a larger effort to predict both supply and demand, enabling a food bank or network of food banks to provide steady service while still being able to react to market shocks.
+
+There are risks: if people rely on the algorithm too much, if the algorithm is wrong, or there are black swan events that affect the supply of food, there might be severe disruption to service. To mitigate the first two risks, we will conduct a period measurement and testing, as well as continuous checking during its operational phase. For the third, we will be transparent in our assumptions to the user so that they are aware of what risks they must also consider in short- and long-term planning. This tool will not be the sole decision-maker for the organization on how it acquires food, but it can help aid in those decisions.
