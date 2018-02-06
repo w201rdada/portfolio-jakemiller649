@@ -4,7 +4,7 @@
 
 food, food bank, food waste
 
-## Two Simultaneous Problems
+## Solve One Problem, Face Another
 
 Nearly half of all fruits and vegetables in the United States are discarded, according to a 2016 study [@goldenberg_half_2016]. The causes for this – from food that is considered ugly during production, to produce wilting or rotting before it can be eaten at home – are as numerous as the consequences. Local landfills expand, while hungry populations miss on potentially available fruits and vegetables.
 
@@ -20,9 +20,11 @@ We will use data about the volumes and types of food donated from each source. (
 
 Separately, data will also be collected on date and season, as well as specific weather conditions, which affect both business consumer patterns as well as farm production. 
 
-The resulting data will be fed into an algorithm and will provide charitable organizations a visualization of predicted food donations. The output will be a dashboard that shows a 14-day forecast for incoming donations, with simple designations of below average, about average, or above average expectations (e.g., “You are expected to receive less than the usual tomatoes over the next week.”). The main dashboard will display primary food groups, but the user will be able to choose specific foods to see more detailed predictions. Simplicity and ease of use will guide the visualizations. 
+The resulting data will be fed into an algorithm and will provide charitable organizations a visualization of predicted food donations. The output will be a dashboard that shows a 14-day forecast for incoming donations (e.g., “You are expected to receive 100-120 lbs. of tomatoes next week.”). The main dashboard will display primary food groups, but the user will be able to choose specific foods to see more detailed predictions. Simplicity and ease of use will guide the visualizations, and the user will be less likely to rely on their decision biases and intutions (such as availability or recency biases, when the employee might erroneously assume the next donations will be similar to the most recent ones).
 
 The organization will be able to more accurately predict, for example, that a certain store has less leftover produce on a rainy Wednesday; or, if a dry May means fewer tomatoes from the local farm in June. If a new donor is enlisted, the system will forecast that grocer’s donations based on grocers with similar characteristics. 
+
+The predictions can help overcome the decision biases of food bank operators.
 
 ## Building a holistic view of the food supply
 
