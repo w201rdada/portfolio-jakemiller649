@@ -24,8 +24,6 @@ The resulting data will be fed into an algorithm and will provide charitable org
 
 The organization will be able to more accurately predict, for example, that a certain store has less leftover produce on a rainy Wednesday; or, if a dry May means fewer tomatoes from the local farm in June. If a new donor is enlisted, the system will forecast that grocer’s donations based on grocers with similar characteristics. 
 
-The predictions can help overcome the decision biases of food bank operators.
-
 ## Building a holistic view of the food supply
 
 Some food banks have strong relationships with local donors, while others are more reliant on national services such as Feeding America [@prendergast_how_2017]. With this tool, those who rely more heavily on local donations will be better able to predict when to bolster their stocks through secondary acquisition sources, such as Feeding America, in which food banks bid against each other (using fake money) for most prized donations [@prendergast_how_2017].
