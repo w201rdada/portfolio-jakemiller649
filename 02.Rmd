@@ -1,28 +1,50 @@
-# Tackling mass transit in low density areas {#slug-two}
+# Driving Progress {#increasing-public-transit-access}
 
 #### Keywords {-}
 
-yaba, daba, do
+transit, transportation, microtransit, climate change, ride-sharing, 
 
-## 
+## An Unlikely Hero?
 
-Mass transit means less GHGs; also increases access and ease of movement for low-income populations; obviously most mass transit is concentrated in urban areas ... increasingly, areas around mass transit are becomeing too expensive for many populations, pushing those who rely on mass transit most out to underserved areas ... additionally, many smaller cities don't meet threshold for wide-ranging mass transit
-Nulla  sint  art party ex, mlkshk disrupt selvage 90's.  Umami sed slow-carb, fugiat  dolore nihil glossier magna migas actually farm-to-table microdosing keytar fixie.  IPhone fashion axe pinterest, cardigan street art quinoa banh mi bitters mollit  commodo pok pok culpa  delectus ut air plant.  Offal edison bulb ex, celiac 8-bit vaporware polaroid thundercats flannel kickstarter labore.  Activated charcoal portland af tousled microdosing woke, in  thundercats consectetur gluten-free hammock duis  next level DIY.  Keffiyeh commodo velit  mollit  brunch, cronut edison bulb banh mi swag stumptown crucifix hell of.  Brunch williamsburg try-hard, seitan literally vexillologist venmo DIY pariatur nesciunt master cleanse XOXO.
+How can public transit agencies increase ridership, reach underserved populations, and provide reliable service? How can governments promote transportation access without driving up emissions?
 
-## A middle.
+Reducing greenhouse gas emissions is one of the greatest challenges societies and governments face, and mass public transportation is one of many ways to address it. But cutting GHGs are not public transit's only benefit: it's safer than driving (citation needed), and reducing cars, in turn, makes roads and highways safer. And most of all, public transit enables low-income and disabled populations to access jobs and services.
 
-Somehow, we'll measure this stuff and influence lawmakers (or private orgs) to create transit
+There are many barriers. Medium-sized cities are not highly or densely populated enough for cost-effective mass transit. Even in larger cities, transit networks are poorly laid out, inefficient, and leave large swathes unserved. The few areas that do receive reliable, consistent service often become unaffordable for a majority of residents.
 
-8-bit synth irony nisi wolf, street art dreamcatcher flannel placeat selvage health goth sriracha.  Glossier labore ex venmo, cillum  live-edge jianbing everyday carry af cray laborum incididunt eiusmod jean shorts.  Normcore slow-carb lyft letterpress, beard tilde art party.  Poke marfa incididunt tempor duis.  Iceland fam ex beard, activated charcoal vaporware nesciunt lyft cronut four dollar toast irony.  Officia  stumptown voluptate  unicorn culpa  bushwick.  Mollit  vero af marfa deserunt  flexitarian.
+At the same time, the prevalence of transportation network companies (TNCs) such as Uber and Lyft are exacerbating emissions problems. TNCs have contributed to declining public transit usage and increased total vehicle miles traveled. Individuals use TNCs for trips they otherwise would not have driven, adding cars to the road, contributing to congestion. (Citation, the UC Davis people)
 
+One possible solution comes from an unlikely source: microtransit. Currently, startups such as Bridj and Chariot use on-demand vans and small buses to fill in public transit gaps. So far, however, such companies have tended to serve more well-off communities, are only available via smartphone apps, and have not been profitable. (Citation, Vox article)
 
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
-```
+Public agencies, however, have different priorities than start-ups. While some public agencies have experimented with microtransit, they have been limited and only chosen through trial and error. (UpRouted study) Questions remain on how to design routes, how to structure pick-up and drop-off, and how to reach individuals without smartphones. 
 
+## Find the Data, Run the Tests
 
-Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
+Our goal is to help state transportation agencies, state and local lawmakers, and public transit entities identify underserved communities and potential routes for targeted microtransit services.  This can include urban and suburban communities in existing transit systems' blind spots as well as medium-sized towns without existing public transit systems.
 
-## An end.
+We will seek out census tracts that fit two profiles. First, transit need: This will be determined by income level, typical commute distance, commute time, and car ownership. Second, transit availability and access: We will not only look at nearest rail and bus stops, but also how frequently those stops are served and their hours of operation. We will consider both residential and commercial areas.
 
-Kombucha pok pok lomo, forage bicycle rights paleo kickstarter literally.  Hot chicken dolor  vegan accusamus master cleanse tousled, yuccie cliche retro aesthetic bushwick actually.  Ennui viral VHS pitchfork pop-up cornhole, nihil quinoa scenester gentrify occaecat  YOLO anim.  Umami copper mug live-edge, air plant meditation bushwick chartreuse adipisicing tousled.  Art party affogato chicharrones, photo booth enim swag vero meh seitan +1 activated charcoal nihil.  Etsy gluten-free authentic mixtape.  Shabby chic duis  90's pop-up pinterest, lumbersexual mollit  cillum.
+We will draw on the following data sources:
+* Census data on where people live and work
+* Existing public transit data, including origins, destinations, and times
+* Existing highway technology that is currently used for travel time estimation and dynamic tolling
+* Anonymized tax returns, which provides both primary residence and occupation. If this is unavailable, we will look into including surveys with yearly tax forms
+* Car registration data, including not only where cars are owned but how old those cars are 
+
+We do not expect to receive data from private companies such as Uber, Lyft, or Google.
+
+After data processing, calculations, and evaluating census tracts for transit need and transit availability, we will provide public officials and lawmakers with interactive maps to show need and access, and visualizations that show the flow of transportation for a given area throughout a typical day. 
+
+The data will enable lawmakers and transportation officials to decide where to pilot microtransit programs (or other traditional transportation services). This will help them target unmet needs. They will also be able to compare similar areas, running a pilot program in one while using others as control. Ongoing data collection will show what types of services best provide needs to their constituents or are the most cost-effective.
+
+## Reducing Emissions on the Eve of the AV Revolution
+
+The long-term goal is to reduce carbon emissions by promoting public transportation. Neither of these two concepts are slam dunks with lawmakers. Public transportation initiatives can be unpopular with rural legislators and small government conservatives, while even gaining acknowledgment of the need to reduce carbon emissions is no guarantee. The presentation of data will need to be clear and actionable. Furthermore, there may be jurisdictional issues to navigate if transit agencies encompass multiple states, counties, or municipalities.
+
+It's also conceivable that TNCs or even car and gas companies might lobby against increases in public transportation.
+
+The potential payoff -- however far down the road -- is huge. Cities' populations -- and road congestion -- are increasing, and building new rail lines is not always feasible.
+
+But there's a bigger issue looming over the horizon: autonomous vehicles. If transit agencies can establish routes and ridership in the near future, then they will have an easier time transitioning those routes to AVs or holding off competition from private AV services. Otherwise, individuals may flock to AVs at even greater numbers, exacerbating the emissions problem: one study that attempted to replicate access to AVs showed a family of four increasing its car trips by XXXXX. (Citation)
+
+Public transportation has declined in recent  years. With careful study and careful implementation, we can not only reverse that trend but be prepared when the next disruption comes to transportation. 
