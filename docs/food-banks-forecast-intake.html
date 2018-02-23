@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="index.html">
-<link rel="next" href="slug-two.html">
+
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -67,15 +67,10 @@
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome!</a><ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#about-the-author"><i class="fa fa-check"></i>About the author</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="helping-food-banks-forecast-intake.html"><a href="helping-food-banks-forecast-intake.html"><i class="fa fa-check"></i>Food Forecaster</a><ul>
-<li class="chapter" data-level="" data-path="helping-food-banks-forecast-intake.html"><a href="helping-food-banks-forecast-intake.html#solve-one-problem-face-another"><i class="fa fa-check"></i>Solve One Problem, Face Another</a></li>
-<li class="chapter" data-level="" data-path="helping-food-banks-forecast-intake.html"><a href="helping-food-banks-forecast-intake.html#a-more-predictive-supply-chain"><i class="fa fa-check"></i>A More Predictive Supply Chain</a></li>
-<li class="chapter" data-level="" data-path="helping-food-banks-forecast-intake.html"><a href="helping-food-banks-forecast-intake.html#building-a-holistic-view-of-the-food-supply"><i class="fa fa-check"></i>Building a holistic view of the food supply</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="slug-two.html"><a href="slug-two.html"><i class="fa fa-check"></i>My second cool idea</a><ul>
-<li class="chapter" data-level="" data-path="slug-two.html"><a href="slug-two.html#a-beginning."><i class="fa fa-check"></i>A beginning.</a></li>
-<li class="chapter" data-level="" data-path="slug-two.html"><a href="slug-two.html#a-middle."><i class="fa fa-check"></i>A middle.</a></li>
-<li class="chapter" data-level="" data-path="slug-two.html"><a href="slug-two.html#an-end."><i class="fa fa-check"></i>An end.</a></li>
+<li class="chapter" data-level="1" data-path="food-banks-forecast-intake.html"><a href="food-banks-forecast-intake.html"><i class="fa fa-check"></i><b>1</b> Food Forecaster</a><ul>
+<li class="chapter" data-level="1.1" data-path="food-banks-forecast-intake.html"><a href="food-banks-forecast-intake.html#solve-one-problem-face-another"><i class="fa fa-check"></i><b>1.1</b> Solve One Problem, Face Another</a></li>
+<li class="chapter" data-level="1.2" data-path="food-banks-forecast-intake.html"><a href="food-banks-forecast-intake.html#a-more-predictive-supply-chain"><i class="fa fa-check"></i><b>1.2</b> A More Predictive Supply Chain</a></li>
+<li class="chapter" data-level="1.3" data-path="food-banks-forecast-intake.html"><a href="food-banks-forecast-intake.html#building-a-holistic-view-of-the-food-supply"><i class="fa fa-check"></i><b>1.3</b> Building a holistic view of the food supply</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/jakemiller649" target="blank">GitHub</a></li>
@@ -99,19 +94,19 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="helping-food-banks-forecast-intake" class="section level1">
-<h1>Food Forecaster</h1>
+<div id="food-banks-forecast-intake" class="section level1">
+<h1><span class="header-section-number">1</span> Food Forecaster</h1>
 <div id="keywords" class="section level4 unnumbered">
 <h4>Keywords</h4>
 <p>food, food bank, food waste</p>
 </div>
 <div id="solve-one-problem-face-another" class="section level2">
-<h2>Solve One Problem, Face Another</h2>
+<h2><span class="header-section-number">1.1</span> Solve One Problem, Face Another</h2>
 <p>Nearly half of all fruits and vegetables in the United States are discarded, according to a 2016 study <span class="citation">(Goldenberg <a href="#ref-goldenberg_half_2016">2016</a>)</span>. The causes for this – from food that is considered ugly during production, to produce wilting or rotting before it can be eaten at home – are as numerous as the consequences. Local landfills expand, while hungry populations miss on potentially available fruits and vegetables.</p>
 <p>Many food banks, which provide meals and groceries to low-income and needy populations, have taken advantage of food waste from local farms, grocers, and restaurants to fill their stocks. For example, the Capital Area Food Bank, which serves the Washington, DC, area, distributes 42 million pounds of food annually – 33 million of which is donated food that would have been wasted. <span class="citation">(“Food Waste” <a href="#ref-noauthor_food_nodate">2018</a>)</span> But that supply chain is irregular and difficult to predict, and can be helped by data science.</p>
 </div>
 <div id="a-more-predictive-supply-chain" class="section level2">
-<h2>A More Predictive Supply Chain</h2>
+<h2><span class="header-section-number">1.2</span> A More Predictive Supply Chain</h2>
 <p>Large food banks have already sought to harness data to determine which neighborhoods are hit hardest by hunger. Finding the hungry is one challenge, but gathering supplies and feeding them are separate challenges. One subsidiary difficulty is managing the intake of food, including edible food waste – an irregular, unpredictable supply.</p>
 <p>The Food Forecaster seeks to help this specific issue, enabling charitable organizations to anticipate the volume and characteristics of donated “waste” food.</p>
 <p>We will use data about the volumes and types of food donated from each source. (If this data does not yet exist, a period of one year will be required for data collection before attempting predictions.) The food bank, not the donor, will gather this data, and the gathering process must not require significant extra effort. One possible solution is a smartphone app in which a worker selects food and donor, then enters the weight. Within the system, donors will have characteristics such as location, specific lines of business, and size,</p>
@@ -120,11 +115,22 @@
 <p>The organization will be able to more accurately predict, for example, that a certain store has less leftover produce on a rainy Wednesday; or, if a dry May means fewer tomatoes from the local farm in June. If a new donor is enlisted, the system will forecast that grocer’s donations based on grocers with similar characteristics.</p>
 </div>
 <div id="building-a-holistic-view-of-the-food-supply" class="section level2">
-<h2>Building a holistic view of the food supply</h2>
+<h2><span class="header-section-number">1.3</span> Building a holistic view of the food supply</h2>
 <p>Some food banks have strong relationships with local donors, while others are more reliant on national services such as Feeding America. With this tool, those who rely more heavily on local donations will be better able to predict when to bolster their stocks through secondary acquisition sources, such as Feeding America, in which food banks bid against each other (using fake money) for the most prized donations <span class="citation">(Prendergast <a href="#ref-prendergast_how_2017">2017</a>)</span>.</p>
 <p>Furthermore, forecasting food waste intake could be the first step in a larger effort to predict both supply and demand, enabling a food bank or network of food banks to provide steady service while still being able to react to market shocks.</p>
 <p>There are risks: if people rely on the algorithm too much, if the algorithm is wrong, or there are black swan events that affect the supply of food, there might be severe disruption to service. To mitigate the first two risks, we will conduct a period of measurement and testing, as well as continuous checking during its operational phase. For the third, we will be transparent in our assumptions to the user so that they are aware of risks to consider in short- and long-term planning. This tool will not be the sole decision-maker for the organization on how it acquires food, but it can help those decisions.</p>
 
+<div id="refs" class="references">
+<div>
+<p>“Food Waste.” 2018. <em>Capital Area Food Bank – Washington, DC Metro Area</em>. Accessed February 4. <a href="https://www.capitalareafoodbank.org/programs/food-waste/" class="uri">https://www.capitalareafoodbank.org/programs/food-waste/</a>.</p>
+</div>
+<div>
+<p>Goldenberg, Suzanne. 2016. “Half of All US Food Produce Is Thrown Away, New Research Suggests.” <em>The Guardian</em>. <a href="http://www.theguardian.com/environment/2016/jul/13/us-food-waste-ugly-fruit-vegetables-perfect" class="uri">http://www.theguardian.com/environment/2016/jul/13/us-food-waste-ugly-fruit-vegetables-perfect</a>.</p>
+</div>
+<div>
+<p>Prendergast, Canice. 2017. “How Food Banks Use Markets to Feed the Poor.” <em>JOURNAL OF ECONOMIC PERSPECTIVES</em> 31 (4): 145–62. <a href="https://libproxy.berkeley.edu/login?qurl=http%3a%2f%2fsearch.ebscohost.com%2flogin.aspx%3fdirect%3dtrue%26db%3dedswss%26AN%3d000414240100007%26site%3deds-live">https://libproxy.berkeley.edu/login?qurl=http%3a%2f%2fsearch.ebscohost.com%2flogin.aspx%3fdirect%3dtrue%26db%3dedswss%26AN%3d000414240100007%26site%3deds-live</a>.</p>
+</div>
+</div>
 </div>
 </div>
 <h3>References</h3>
@@ -144,8 +150,8 @@
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="slug-two.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
