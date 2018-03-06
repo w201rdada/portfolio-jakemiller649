@@ -6,24 +6,23 @@ transit, transportation, microtransit, climate change, ride-sharing,
 
 ## An Unlikely Hero?
 
-How can public transit agencies increase ridership, reach underserved populations, and provide reliable service? How can governments promote transportation access without driving up emissions?
+Drive, bike, walk, take the metro or bus, or rideshare. 
 
-Reducing greenhouse gas emissions is one of the greatest challenges societies and governments face, and mass public transportation is one of many ways to address it. But cutting GHGs are not public transit's only benefit: it's safer than driving (citation needed), and reducing cars, in turn, makes roads and highways safer. And most of all, public transit enables low-income and disabled populations to access jobs and services.
+That is the choice for modern city-dwellers, with cost, time, and convenience factoring into each person’s mental calculus. For the question of transportation, societies and governments, however, have a tougher challenge: reducing greenhouse gas emissions. For government officials, encouraging individuals toward mass transit is one solution.
 
-There are many barriers. Medium-sized cities are not highly or densely populated enough for cost-effective mass transit. Even in larger cities, transit networks are poorly laid out, inefficient, and leave large swathes unserved. The few areas that do receive reliable, consistent service often become unaffordable for a majority of residents.
+But the prevalence of rideshare services, also known as transportation network companies (TNCs), such as Uber and Lyft are hurting mass transit and exacerbating emissions problems. TNCs have contributed to declining public transit usage and increased total vehicle miles traveled. Individuals use TNCs for trips they otherwise would not have driven, adding cars to the road, and create “deadhead” miles during which drivers circle without passengers. (Clewlow)
 
-(note to self to address: traditional subways or light rail is also very expensive, and not flexible to changing city dynamics -- aka our metro in DC (they have lots of benefits too, but these are some cons))
+The rise of autonomous vehicles (AV) is likely to accelerate this trend. In one preliminary study, using a chauffeur to simulate an AV for test subjects, subjects’ vehicle miles traveled (VMT) increased 76 percent (22 of which were “ghost” trips without subjects in the car). Almost no subjects used bicycles or public transit. (Walker)
 
-At the same time, the prevalence of transportation network companies (TNCs) such as Uber and Lyft are exacerbating emissions problems. TNCs have contributed to declining public transit usage and increased total vehicle miles traveled (citation). Individuals use TNCs for trips they otherwise would not have driven, adding cars to the road, contributing to congestion. (Citation, the UC Davis people) 
+Convenience’s price will be clogged roads and clogged air.
 
-(note to self: the term is "deadhead miles".. where drivers are circling without passengers long distances)
+State and local transportation and transit entities must re-engage consumers, but there is no shortage of barriers. Medium-sized cities are not highly or densely populated enough for cost-effective mass transit. Even in larger cities, transit networks are poorly laid out, inefficient, and leave large swathes unserved. Traditional subways and light rail are expensive to build and maintain and are not flexible to changing city dynamics. And areas that do receive reliable, consistent service often become unaffordable for a majority of residents.
 
-One possible solution comes from an unlikely source: microtransit. Currently, startups such as Bridj and Chariot use on-demand vans and small buses to fill in public transit gaps. So far, however, such companies have tended to serve more well-off communities, are only available via smartphone apps, and have not been profitable. (Citation, Vox article)
+One possible solution comes from an unlikely source: microtransit. 
 
-(note to self, RIP bridj  https://www.citylab.com/transportation/2017/05/bridj-is-dead-but-microtransit-isnt/525156/)
+Startups such as Bridj and Chariot have attempted on-demand vans and small buses to fill in public transit gaps. So far, however, such companies have tended to serve more well-off communities (Stromberg), while a trial partnership between the Kansas City Area Transportation Authority and Bridj, which is now out of business, gained far fewer riders than anticipated. (Bliss)
 
-
-Public agencies, however, have different priorities than start-ups. While some public agencies have experimented with microtransit, they have been limited and only chosen through trial and error. (UpRouted study) Questions remain on how to design routes, how to structure pick-up and drop-off, and how to reach individuals without smartphones. 
+Public agencies, however, have different priorities than start-ups. While some public agencies have experimented with microtransit, they have been limited and only chosen through trial and error. (Westervelt) Questions remain on how to design routes, how to structure pick-up and drop-off, and how to reach individuals without smartphones. 
 
 ## Find the Data, Run the Tests
 
@@ -42,8 +41,6 @@ We do not expect to receive data from private companies such as Uber, Lyft, or G
 
 After data processing, calculations, and evaluating census tracts for transit need and transit availability, we will provide public officials and lawmakers with interactive maps to show need and access, and visualizations that show the flow of transportation for a given area throughout a typical day. 
 
-(note to self:  data might exclude low income neighborhoods. one thing to look at would be including hours past when metro is open and checking stores and restaurants closing times or openings to get at the workers who can't use public transportation)
-
 The data will enable lawmakers and transportation officials to decide where to pilot microtransit programs (or other traditional transportation services). This will help them target unmet needs. They will also be able to compare similar areas, running a pilot program in one while using others as control. Ongoing data collection will show what types of services best provide needs to their constituents or are the most cost-effective.
 
 ## Reducing Emissions on the Eve of the AV Revolution
@@ -57,3 +54,5 @@ The potential payoff -- however far down the road -- is huge. Cities' population
 But there's a bigger issue looming over the horizon: autonomous vehicles. If transit agencies can establish routes and ridership in the near future, then they will have an easier time transitioning those routes to AVs or holding off competition from private AV services. Otherwise, individuals may flock to AVs at even greater numbers, exacerbating the emissions problem: one study that attempted to replicate access to AVs showed a family of four increasing its car trips by XXXXX. (Citation)
 
 Public transportation has declined in recent  years. With careful study and careful implementation, we can not only reverse that trend but be prepared when the next disruption comes to transportation. 
+
+
