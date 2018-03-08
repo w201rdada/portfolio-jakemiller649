@@ -26,7 +26,11 @@ Public agencies, however, have different priorities than start-ups. While some p
 
 ## Find the Data, Run the Tests
 
-Our goal is to help state transportation agencies, state and local lawmakers, and public transit entities identify underserved communities and potential routes for targeted microtransit services.  This can include urban and suburban communities in existing transit systems' blind spots as well as medium-sized towns without existing public transit systems.
+Our goal is to help state transportation agencies and public transit entities identify underserved communities and potential routes for targeted microtransit services.  This can include urban and suburban communities in existing transit systems' blind spots as well as medium-sized towns without existing public transit systems.
+
+### The Data
+
+Jake, add figure 1 here
 
 We will seek out census tracts that fit two profiles. First, transit need: This will be determined by income level, typical commute distance, commute time, and car ownership. Second, transit availability and access: We will not only look at nearest rail and bus stops, but also how frequently those stops are served and their hours of operation. We will consider both residential and commercial areas.
 
@@ -39,9 +43,27 @@ We will draw on the following data sources:
 
 We do not expect to receive data from private companies such as Uber, Lyft, or Google.
 
-After data processing, calculations, and evaluating census tracts for transit need and transit availability, we will provide public officials and lawmakers with interactive maps to show need and access, and visualizations that show the flow of transportation for a given area throughout a typical day. 
+### T
 
-The data will enable lawmakers and transportation officials to decide where to pilot microtransit programs (or other traditional transportation services). This will help them target unmet needs. They will also be able to compare similar areas, running a pilot program in one while using others as control. Ongoing data collection will show what types of services best provide needs to their constituents or are the most cost-effective.
+Jake, add figure 2 here
+
+After data processing, calculations, and evaluating census tracts for transit need and transit availability, we will provide public officials and lawmakers with interactive maps to show need and access, and visualizations that show the flow of transportation for a given area throughout a typical day. We will include late night and early morning hours to account for those, such as some retail and restaurant workers, whose work schedules fall outside typical rail or bus operation.
+
+### Plotting Pilots
+
+Jake, figure 3 here
+
+The data will help transportation officials to decide where to pilot microtransit programs or potentially other traditional transportation services. Ideally, the transit entity will compare similar areas, running a pilot program in one while using others as control..
+
+A crucial step in this phase is designating criteria for success. Overall ridership -- and financial feasibility -- are priorities for private transportation enterprises, but public entities may have others. These could include:
+
+* Right-sizing: An empty bus is bad for emissions, and our data may show where existing bus lines may be pilot subjects for microtransit -- or the converse, where additional bus capacity could be added. Similarly, some routes may be best served with full-size buses during rush hour and smaller vehicles during off-peak hours.
+
+* Wait times: If feasible, we would advocate installing card readers at transit stops that allow a rider to check in before the bus arrives. This would provide the agency a window into how long individuals wait before their transportation arrives.
+
+* Total time in transit: The data may reveal high frequency origin-destination pairs, allowing the agency to pilot express routes. Other data may reveal certain roads ripe for bus-only lanes.
+
+The UpRouted study (Westervelt) demonstrated trials with mixed results. Our trials must be iterative, and will include ongoing data collection. 
 
 ## Reducing Emissions on the Eve of the AV Revolution
 
@@ -51,8 +73,7 @@ It's also conceivable that TNCs or even car and gas companies might lobby agains
 
 The potential payoff -- however far down the road -- is huge. Cities' populations -- and road congestion -- are increasing, and building new rail lines is not always feasible.
 
-bring back discussion to AVs here
-
+bring it back to AV
 
 Public transportation has declined in recent  years. With careful study and careful implementation, we can not only reverse that trend but be prepared when the next disruption comes to transportation. 
 
