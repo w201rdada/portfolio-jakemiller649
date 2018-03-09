@@ -6,9 +6,11 @@ transit, transportation, microtransit, ridesharing, autonomous vehicles, emissio
 
 ## Declining Transit, Rising Emissions
 
+
 Drive, bike, walk, metro, bus, or rideshare? The choice of modern city-dwellers weighs cost, time, and convenience. Over time, however, choices become habits. 
 
 For governments, the question of transportation has complicating elements. Governments seek efficient transportation networks to facilitate economic activity but are increasingly inclined to decelerate greenhouse gas emissions. Encouraging individuals toward mass transit is one strategy that potentially serves both ends. But how can it be accomplished?
+
 
 ### Rideshares, Public Transit, and AV Uncertainty
 
