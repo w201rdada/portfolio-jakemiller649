@@ -36,7 +36,7 @@ Our goal is to help transportation agencies and public transit entities identify
 
 ## Find the Data, Run the Tests
 
-!['High-Level Workflow. Data Scientists will gather and analyze data, then present potential pilot opportunities to transit officials.'](img/f1/png)
+!['High-Level Workflow. Data Scientists will gather and analyze data, then present potential pilot opportunities to transit officials.'](img/f1.png)
 
 We will gather data to analyze areas of high transit need and low transit access, then use that analysis to design pilot programs. Potential test cases include:
 
