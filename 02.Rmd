@@ -6,21 +6,23 @@ transit, transportation, microtransit, ridesharing, autonomous vehicles, emissio
 
 ## Declining Transit, Rising Emissions
 
-Drive, bike, walk, take the metro or bus, or rideshare? The choice of modern city-dwellers weighs cost, time, and convenience -- for most, however, it isn’t a choice but a habit. 
 
-For governments, the question of transportation has other elements. Governments seek efficient transportation networks to facilitate economic activity, with an increasing emphasis on reducing overall emissions. Encouraging individuals toward mass transit is one strategy that serves both ends. But how can it be accomplished?
+Drive, bike, walk, metro, bus, or rideshare? The choice of modern city-dwellers weighs cost, time, and convenience. Over time, however, choices become habits. 
+
+For governments, the question of transportation has complicating elements. Governments seek efficient transportation networks to facilitate economic activity but are increasingly inclined to decelerate greenhouse gas emissions. Encouraging individuals toward mass transit is one strategy that potentially serves both ends. But how can it be accomplished?
+
 
 ### Rideshares, Public Transit, and AV Uncertainty
 
 The prevalence of rideshare services, also known as transportation network companies (TNCs), such as Uber and Lyft has, on average, decreased transit use by 6 percent among Americans in major cities. TNCs have also increased total vehicle miles traveled (VMT), a leading emissions indicator, including miles during which drivers circle without passengers. (Clewlow)
 
-The rise of autonomous vehicles (AV) is likely to accelerate this trend. In one preliminary study, using a chauffeur to simulate an AV for test subjects, subjects’ vehicle miles traveled increased 76 percent (22 of which were “ghost” trips without subjects in the car). **Almost no subjects used public transit.** (Walker)
+The rise of autonomous vehicles (AV) is likely to accelerate these trends. In one preliminary study, using a chauffeur to simulate an AV for test subjects, subjects’ VMT increased 76 percent (22 of which were “ghost” trips without subjects in the car). Almost no subjects used public transit. (Walker)
 
 ### Transit at a Crossroads
 
-To mitigate the magnitude of clogged roads, clogged air, and vacant seats, state and local transportation and transit entities must re-engage consumers. Dwindling riders means dwindling revenues, leading to fewer repairs and more outages, creating further downward spirals. 
+To mitigate the magnitude of clogged roads, clogged air, and vacant seats, state and local transit entities must re-engage consumers. Dwindling riders means dwindling revenues, which in turn produces delayed repairs, more frequent service disruptions, can be potentially soured customers. 
 
-There is no shortage of barriers. Even in larger cities, transit networks are poorly laid out, outdated, inefficient, or leave large swathes unserved. Traditional subways and light rail are expensive to build and maintain, have long construction times, and are not flexible to changing city dynamics.
+Subways, light rail, and streetcars are expensive to build and maintain, have long construction times, and are not flexible to changing city dynamics. Even existing transit networks are poorly laid out, outdated, inefficient, or leave large swathes unserved. 
 
 If public transit agencies are going to regain any ground on TNCs -- or avert an AV avalanche -- they must create a transit network that is consistent, reliable, fast, affordable, and, most importantly, a part of individuals’ daily routines. 
 
@@ -28,65 +30,60 @@ If public transit agencies are going to regain any ground on TNCs -- or avert an
 
 Microtransit startups such as Bridj and Chariot have attempted on-demand vans and small buses to fill in public transit gaps. So far, however, such companies have tended to serve more well-off communities (Stromberg), while a trial partnership between the Kansas City Area Transportation Authority and Bridj, which is now out of business, gained far fewer riders than anticipated. (Bliss)
 
-Public agencies, however, have different priorities than start-ups. While some public agencies have experimented with microtransit, they have been limited and only chosen through trial and error. (Westervelt) 
+The postmortem of the Kansas City experiment noted several factors in underwhelming performance. One factor was substandard marketing, but another was insufficient data on origins and destinations. This hampered planners’ ability to design routes.
 
-Our goal is to help state transportation agencies and public transit entities identify underserved communities and potential routes for targeted microtransit services trials.
+That’s where we come in.
+
+Our goal is to help transportation agencies and public transit entities identify underserved communities and potential routes for targeted microtransit services trials. We will help them make the short-term decision as to where to try such services so that they can make the long-term decision on their viability as part of a greater transportation network.
 
 ## Find the Data, Run the Tests
 
-[fig 1: High-Level Workflow. Data Scientists will gather and analyze data, then present potential pilot opportunities to transit officials.] Gather data -> Identify Targets -> Pilot -> Analyze
+!['High-Level Workflow. Data Scientists will gather and analyze data, then present potential pilot opportunities to transit officials.'](img/f1.png)
 
 We will gather data to analyze areas of high transit need and low transit access, then use that analysis to design pilot programs. Potential test cases include:
 
-* First mile/last mile: Augmenting rail service with microtransit around stations to increase a station’s serviceable population
-* Transit blind spots: Creating new routes through currently underserved areas
-* Right-sizing current routes: Transitioning low-frequency lines to from buses to smaller vehicles. Similarly, some routes may be best served with full-size buses during rush hour and smaller vehicles during off-peak hours.
-* Express service on existing routes: High frequency origins and destinations
-
-Some test cases may prove more fruitful than others. Test cases will be compared against similar areas to provide a control.
+* **First mile/last mile**: Augmenting service with microtransit around stations to increase a station’s serviceable population. This could even be done in partnership with services like UberPool, Lyft Line, and Via by subsidizing rush hour trips that originate or end at rail stops
+* **Transit blind spots**: Creating new service through currently unserved/underserved areas
+* **Right-sizing current routes**: Transitioning low-frequency lines to from buses to smaller vehicles. For example, some routes may be best served with full-size buses during rush hour and smaller vehicles during off-peak hours
+* **Express service on existing routes**: High frequency origins and destinations
 
 ### Identifying Target Areas
 
 We will seek out census tracts that fit two profiles: high transit need and low transit access.
 
-Table 1: Transit Need
-Concept
-Indicator
-Commute distance
-Home address and work address (via census and tax records); in/out transit data from existing transit users
-Commute time
-Time for computed routes
-Commute cost
-Tolls, gas (using estimated fuel efficiency based on vehicle type from DMV data), annual cost of car ownership; compare to fees for current transit users
+```{r echo = FALSE, results = 'asis'}
+t1c1 <- c("Concept", "Commute distance", "Commute duration", "Commute time of day", "Commute cost")
+t1c2 <- c("Indicator", "Home address and work address (via census and tax records)", "Duration for computed routes", "Difference between rush hour and off-peak volumes; duration of rush hour", "Tolls, gas (using estimated fuel efficiency based on vehicle type from DMV data), annual cost of car ownership; parking availability and costs")
+tab1 <- data.frame(t1c1, t1c2)
+kable(tab1, caption = "Transit Need.")
 
+t2c1 <- c("Concept", "Access", "Availability")
+t2c2 <- c("Indicator", "Distance to metro and bus stops", "Hours of operation; frequency and regularity of service")
+tab2 <- data.frame(t2c1, t2c2)
+kable(tab2, caption = "Transit Access and Availability.")
+```
 
-Table 2: Transit Access and Availability
-Concept
-Indicator
-Access
-Distance to metro and bus stops
-Availability
-Hours of operation; frequency and regularity of service
-
-
-Jake, add figure 2 here
-
-After data processing, calculations, and evaluating census tracts for transit need and transit availability, we will provide public officials with interactive maps to show need and access, and visualizations that show the flow of transportation for a given area throughout a typical day. We will include late night and early morning hours to account for those, such as some retail and restaurant workers, whose work schedules fall outside typical rail or bus operation.
+After data processing, calculations, and evaluating census tracts for transit need and transit availability, we will provide public officials with interactive maps to show need and access, and visualizations that show the flow of people for a given area throughout a typical day. We will include late night and early morning hours to account for those (such as some retail and restaurant workers) whose work schedules fall outside typical rail or bus operation.
 
 ### Plotting Pilots
 
-Jake, figure 3 here
+Our analysis will help transportation officials plan pilots. Analysis of origins, destinations, and travel times and patterns will be useful in choosing not only when and where but also the appropriate type. There are four high-level classifications:
 
-The data will help transportation officials to decide where to pilot microtransit programs or potentially other traditional transportation services. Ideally, the transit entity will compare similar areas, running a pilot program in one while using others as control..
+* Fixed route/fixed schedule 
+* Flexible route/fixed schedule
+* Fixed route/on demand schedule
+* Flexible route/on demand schedule (Westervelt)
 
-A crucial step in this phase is designating criteria for success. Overall ridership -- and financial feasibility -- are priorities for private transportation enterprises, but public entities may have additional metrics. These could include wait times, total time in transit, and number of everyday users. Ultimately, the last metric is the one we most want to increase: the number of users for whom transit becomes a routine part of their day.
+A crucial step in this phase is designating criteria for success. Overall ridership -- and financial feasibility -- are priorities for private transportation enterprises, but public entities may have additional metrics. These could include wait times, number of connections, total time in transit, and number of everyday users. Ultimately, the last metric is the one we most want to increase: the number of users for whom transit becomes a routine part of their day.
 
 ## Reducing Emissions on the Eve of the AV Revolution
 
-The long-term goal is to promote public transportation, while touting emissions reductions as a significant benefit. Neither of these two concepts are slam dunks with lawmakers who control funding. Public transportation initiatives can be unpopular with rural legislators and small government conservatives, while even gaining acknowledgment of the need to reduce carbon emissions is no guarantee. Furthermore, there may be jurisdictional issues to navigate if transit agencies encompass multiple states, counties, or municipalities. Additionally, environmental regulators and advocacy groups will want information as to emissions efficiency of such services.
+The long-term goal is to promote public transportation, while touting emissions reductions as a significant benefit. Neither of these two concepts are slam dunks with lawmakers who control funding. Public transportation initiatives can be unpopular with rural legislators and small government conservatives, nor is acknowledgment of the need to reduce carbon emissions any guarantee. Furthermore, there may be jurisdictional issues to navigate if transit agencies encompass multiple states, counties, or municipalities. 
 
-This system, however, will show the feasibility -- or, potentially, infeasibility -- of microtransit as part of a transportation network. If the trials are successful and show emissions reductions, then expanding the trials or making them permanent will be an easier sell to lawmakers and other interested bodies. If the trials have negligible or even detrimental effects, then public transit agencies will be able to avoid further investment.
+Additionally, environmental regulators and advocacy groups will want information on such services’ emissions efficiency.
 
-The upfront investment in microtransit is still much more attainable than rail, streetcar, or bus rapid transit (BRT). It is flexible and lends itself more easily to trials. 
+This system, however, will show the feasibility -- or, potentially, infeasibility -- of microtransit as part of a transportation network. If the trials are successful and show greater transit access and emissions reductions, then expanding the trials or making them permanent will be an easier sell to lawmakers and other interested bodies.  If the trials have negligible or even detrimental effects, then public transit agencies will be able to avoid further investment. In either case, public transit bodies and their sponsoring governments will have a better understanding if this venture is worth additional funding.
 
-Public transportation has already suffered declining ridership, and regaining lost riders from TNCs will prove difficult. Reclaiming them from AVs, if they become the habit or norm, will be moreso. Societies as a whole can profess a desire to combat rising emissions, but it is the sum of individual decisions that will make the difference. Public transit can push that sum in the right direction, but it will require study, planning, and willingness to experiment.
+The upfront investment in microtransit is still much more attainable than rail, streetcar, or bus rapid transit (BRT). It is flexible and lends itself more easily to trials. That considered, it still must be done correctly: learning the lessons from previous studies, there must be public outreach and the services must match the travel patterns of the consumers. Our data and experiments seek to increase the likelihood of the latter.
+
+Reclaiming lost riders will prove difficult. Reclaiming them from AVs, if they become the habit or norm, will be moreso. Societies as a whole can profess a desire to combat rising emissions, but it is the sum of individual decisions that will make the difference. Public transit can push that sum in the right direction, but it will require study, planning, and willingness to experiment.
