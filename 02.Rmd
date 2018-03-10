@@ -14,9 +14,9 @@ For governments, the question of transportation has complicating elements. Gover
 
 ### Rideshares, Public Transit, and AV Uncertainty
 
-The prevalence of rideshare services, also known as transportation network companies (TNCs), such as Uber and Lyft has, on average, decreased transit use by 6 percent among Americans in major cities. TNCs have also increased total vehicle miles traveled (VMT), a leading emissions indicator, including miles during which drivers circle without passengers. (Clewlow)
+The prevalence of rideshare services, also known as transportation network companies (TNCs), such as Uber and Lyft has, on average, decreased transit use by 6 percent among Americans in major cities. TNCs have also increased total vehicle miles traveled (VMT), a leading emissions indicator, including miles during which drivers circle without passengers. [@clewlow_disruptive_2017]
 
-The rise of autonomous vehicles (AV) is likely to accelerate these trends. In one preliminary study, using a chauffeur to simulate an AV for test subjects, subjects’ VMT increased 76 percent (22 of which were “ghost” trips without subjects in the car). Almost no subjects used public transit. (Walker)
+The rise of autonomous vehicles (AV) is likely to accelerate these trends. In one preliminary study, using a chauffeur to simulate an AV for test subjects, subjects’ VMT increased 76 percent (22 of which were “ghost” trips without subjects in the car). Almost no subjects used public transit. [@walker_traffic_2017]
 
 ### Transit at a Crossroads
 
@@ -28,9 +28,9 @@ If public transit agencies are going to regain any ground on TNCs -- or avert an
 
 ### An Option Worth Testing
 
-Microtransit startups such as Bridj and Chariot have attempted on-demand vans and small buses to fill in public transit gaps. So far, however, such companies have tended to serve more well-off communities (Stromberg), while a trial partnership between the Kansas City Area Transportation Authority and Bridj, which is now out of business, gained far fewer riders than anticipated. (Bliss)
+Microtransit startups such as Bridj and Chariot have attempted on-demand vans and small buses to fill in public transit gaps. So far, however, such companies have tended to serve more well-off communities [@stromberg_these_2015], while a trial partnership between the Kansas City Area Transportation Authority and Bridj, which is now out of business, gained far fewer riders than anticipated. [@bliss_microtransit_nodate]
 
-The postmortem of the Kansas City experiment noted several factors in underwhelming performance. One factor was substandard marketing, but another was insufficient data on origins and destinations. This hampered planners’ ability to design routes.
+The postmortem of the Kansas City experiment noted several factors in underwhelming performance. One factor was substandard marketing, but another was insufficient data on origins and destinations. This hampered planners’ ability to design routes.[@westervelt_uprouted:_2018]
 
 That’s where we come in.
 
@@ -38,7 +38,9 @@ Our goal is to help transportation agencies and public transit entities identify
 
 ## Find the Data, Run the Tests
 
-!['High-Level Workflow. Data Scientists will gather and analyze data, then present potential pilot opportunities to transit officials.'](img/f1.png)
+```{r echo=FALSE,fig.cap='High-Level Workflow. Data Scientists will gather and analyze data, then present potential pilot opportunities to transit officials.',fig.align='center',out.width='75%'}
+knitr::include_graphics('img/f1.png')
+```
 
 We will gather data to analyze areas of high transit need and low transit access, then use that analysis to design pilot programs. Potential test cases include:
 
@@ -52,14 +54,14 @@ We will gather data to analyze areas of high transit need and low transit access
 We will seek out census tracts that fit two profiles: high transit need and low transit access.
 
 ```{r echo = FALSE, results = 'asis'}
-t1c1 <- c("Concept", "Commute distance", "Commute duration", "Commute time of day", "Commute cost")
-t1c2 <- c("Indicator", "Home address and work address (via census and tax records)", "Duration for computed routes", "Difference between rush hour and off-peak volumes; duration of rush hour", "Tolls, gas (using estimated fuel efficiency based on vehicle type from DMV data), annual cost of car ownership; parking availability and costs")
-tab1 <- data.frame(t1c1, t1c2)
+Concept <- c("Commute distance", "Commute duration", "Commute time of day", "Commute cost")
+Indicator <- c("Home address and work address (via census and tax records)", "Duration for computed routes", "Difference between rush hour and off-peak volumes; duration of rush hour", "Tolls, gas (using estimated fuel efficiency based on vehicle type from DMV data), annual cost of car ownership; parking availability and costs")
+tab1 <- data.frame(Concept, Indicator)
 kable(tab1, caption = "Transit Need.")
 
-t2c1 <- c("Concept", "Access", "Availability")
-t2c2 <- c("Indicator", "Distance to metro and bus stops", "Hours of operation; frequency and regularity of service")
-tab2 <- data.frame(t2c1, t2c2)
+Concept <- c("Access", "Availability")
+Indicator <- c("Distance to metro and bus stops", "Hours of operation; frequency and regularity of service")
+tab2 <- data.frame(Concept, Indicator)
 kable(tab2, caption = "Transit Access and Availability.")
 ```
 
@@ -67,12 +69,12 @@ After data processing, calculations, and evaluating census tracts for transit ne
 
 ### Plotting Pilots
 
-Our analysis will help transportation officials plan pilots. Analysis of origins, destinations, and travel times and patterns will be useful in choosing not only when and where but also the appropriate type. There are four high-level classifications:
+Our analysis will help transportation officials plan pilots. Analysis of origins, destinations, and travel times and patterns will be useful in choosing not only when and where but also the appropriate type. There are four high-level classifications [@westervelt_uprouted:_2018]:
 
 * Fixed route/fixed schedule 
 * Flexible route/fixed schedule
 * Fixed route/on demand schedule
-* Flexible route/on demand schedule (Westervelt)
+* Flexible route/on demand schedule 
 
 A crucial step in this phase is designating criteria for success. Overall ridership -- and financial feasibility -- are priorities for private transportation enterprises, but public entities may have additional metrics. These could include wait times, number of connections, total time in transit, and number of everyday users. Ultimately, the last metric is the one we most want to increase: the number of users for whom transit becomes a routine part of their day.
 
