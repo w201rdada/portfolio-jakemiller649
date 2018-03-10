@@ -1,4 +1,4 @@
-# Driving Progress: Increasing Public Transit Access {#driving-progress}
+# Driving Progress: Finding Novel Public Transit Solutions {#driving-progress}
 
 #### Keywords {-}
 
@@ -6,11 +6,9 @@ transit, transportation, microtransit, ridesharing, autonomous vehicles, emissio
 
 ## Declining Transit, Rising Emissions
 
-
 Drive, bike, walk, metro, bus, or rideshare? The choice of modern city-dwellers weighs cost, time, and convenience. Over time, however, choices become habits. 
 
 For governments, the question of transportation has complicating elements. Governments seek efficient transportation networks to facilitate economic activity but are increasingly inclined to decelerate greenhouse gas emissions. Encouraging individuals toward mass transit is one strategy that potentially serves both ends. But how can it be accomplished?
-
 
 ### Rideshares, Public Transit, and AV Uncertainty
 
@@ -26,19 +24,19 @@ Subways, light rail, and streetcars are expensive to build and maintain, have lo
 
 If public transit agencies are going to regain any ground on TNCs -- or avert an AV avalanche -- they must create a transit network that is consistent, reliable, fast, affordable, and, most importantly, a part of individuals’ daily routines. 
 
-### An Option Worth Testing
+### A New Option Is Arriving
 
 Microtransit startups such as Bridj and Chariot have attempted on-demand vans and small buses to fill in public transit gaps. So far, however, such companies have tended to serve more well-off communities [@stromberg_these_2015], while a trial partnership between the Kansas City Area Transportation Authority and Bridj, which is now out of business, gained far fewer riders than anticipated. [@bliss_microtransit_nodate]
 
 The postmortem of the Kansas City experiment noted several factors in underwhelming performance. One factor was substandard marketing, but another was insufficient data on origins and destinations. This hampered planners’ ability to design routes.[@westervelt_uprouted:_2018]
 
-That’s where we come in.
+**That’s where we come in.**
 
 Our goal is to help transportation agencies and public transit entities identify underserved communities and potential routes for targeted microtransit services trials. We will help them make the short-term decision as to where to try such services so that they can make the long-term decision on their viability as part of a greater transportation network.
 
-## Find the Data, Run the Tests
+## Data-Informed Microtransit Tests
 
-```{r echo=FALSE,fig.cap='High-Level Workflow. Data Scientists will gather and analyze data, then present potential pilot opportunities to transit officials.',fig.align='center',out.width='75%'}
+```{r echo=FALSE,fig.cap='High-Level Workflow. Data scientists will gather and analyze data, then present potential pilot opportunities to transit officials.',fig.align='center',out.width='100%'}
 knitr::include_graphics('img/f1.png')
 ```
 
@@ -78,7 +76,7 @@ Our analysis will help transportation officials plan pilots. Analysis of origins
 
 A crucial step in this phase is designating criteria for success. Overall ridership -- and financial feasibility -- are priorities for private transportation enterprises, but public entities may have additional metrics. These could include wait times, number of connections, total time in transit, and number of everyday users. Ultimately, the last metric is the one we most want to increase: the number of users for whom transit becomes a routine part of their day.
 
-## Reducing Emissions on the Eve of the AV Revolution
+## Building for the Long Term
 
 The long-term goal is to promote public transportation, while touting emissions reductions as a significant benefit. Neither of these two concepts are slam dunks with lawmakers who control funding. Public transportation initiatives can be unpopular with rural legislators and small government conservatives, nor is acknowledgment of the need to reduce carbon emissions any guarantee. Furthermore, there may be jurisdictional issues to navigate if transit agencies encompass multiple states, counties, or municipalities. 
 
