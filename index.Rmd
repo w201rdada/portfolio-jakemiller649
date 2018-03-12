@@ -38,7 +38,9 @@ Within the last few years, researchers, environmentalists, farmers, and grocers 
 
 ### Abstract of my second cool idea {-}
 
-Coming soon.
+Public transit use is in decline in many cities largely due to the advent of services such as Lyft and Uber. If public transit agencies do not adequately re-engage consumers before autonomous vehicle (AV) usage becomes the norm, it will likely be unable to win consumers back. In addition to the potential degradation of public transit, a mass shift to individual cars would be disastrous for GHG emissions. 
+
+This project seeks to help public transit entities pilot microtransit services to bolster or augment current public transit capabilities. Unlike previous microtransit trials, we will use data to determine areas of highest public transit need and lowest transit availability, linking to existing transit where possible. This system allows for quick, testable expansion of public transit networks without the cost of building rail or other inflexible systems.
 
 ## About the author {-}
 
