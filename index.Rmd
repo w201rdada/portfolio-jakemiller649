@@ -20,7 +20,7 @@ readLines('https://www.zotero.org/api/users/4668375/items/top?limit=25&format=bi
 # Welcome! {-}
 
 <!-- You can include images saved within your repo... -->
-```{r echo=FALSE,fig.cap='This is me, hiking in Azores, 2016.',fig.align='center',out.width='50%'}
+```{r echo=FALSE,fig.cap='Hello. It's me.',fig.align='center',out.width='50%'}
 knitr::include_graphics('img/me.JPG')
 ```
 
@@ -44,6 +44,6 @@ This project seeks to help public transit entities pilot microtransit services t
 
 ## About the author {-}
 
-This portfolio is part of my first steps toward a career in data science. I was drawn toward data science because of the potential to solve deep, meaningful, and complex issues, and I believe data science can be used toward making the world a better place. I currently work as a proposal manager for a mid-size IT services company that serves government health and human services organizations. I previously served as a marketing and proposal consultant, and before that as a newspaper writer. My interests include cooking (always happy to recommend a recipe or, if you're visiting DC, a restaurant), soccer, and tennis. I am a native of Asheboro, NC, received a bachelor's degree in history from Princeton, and live in Washington, DC.
+This portfolio is part of my first steps toward a career in data science. I was drawn toward data science because of the potential to solve deep, meaningful, and complex issues, and I believe data science can be used toward making the world a better place. I currently work as a proposal manager for a mid-size IT services company that serves government health and human services organizations. I previously served as a marketing and proposal consultant, and before that as a newspaper writer. My interests include soccer, tennis, and cooking (always happy to recommend a recipe or, if you're visiting DC, a restaurant). I am a native of Asheboro, NC, received a bachelor's degree in history from Princeton, and live in Washington, DC.
 
 *Updated: `r Sys.Date()`*
