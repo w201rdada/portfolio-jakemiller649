@@ -28,8 +28,8 @@ Hi, I'm Jake and this is my project page for W201 Research Design and Applicatio
 
 <!-- Below this line is just examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
 <p>
-```{r hello-benji,echo=FALSE,fig.cap='Hello Benjamin Franklin!',fig.align='center'}
-knitr::include_url('https://drive.google.com/file/d/0B6bobRDQR96iVEV3SXJJal9CczQ/preview')
+```{r echo=FALSE,fig.cap='Please allow me to introduce myself.',fig.align='center'}
+knitr::include_url('https://drive.google.com/file/d/1cDkO5RijBj4mo0kksWGN54lrvKpw5Vtb/preview')
 ```
 
 ### Abstract of my first cool idea {-}
