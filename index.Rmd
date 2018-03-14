@@ -20,8 +20,8 @@ readLines('https://www.zotero.org/api/users/4668375/items/top?limit=25&format=bi
 # Welcome! {-}
 
 <!-- You can include images saved within your repo... -->
-```{r echo=FALSE,fig.cap='Hello. It's me.',fig.align='center',out.width='50%'}
-knitr::include_graphics('img/me.JPG')
+```{r echo=FALSE,fig.cap='Hello. It\'s me.',fig.align='center',out.width='50%'}
+knitr::include_graphics('img/me2.png')
 ```
 
 Hi, I'm Jake and this is my project page for W201 Research Design and Applications for Data Analysis (RDADA). This site will contain my two "cool ideas." 
